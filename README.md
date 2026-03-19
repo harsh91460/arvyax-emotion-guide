@@ -29,22 +29,27 @@ models/*.pkl            # 350KB production models
 Feature importance report
 
 ## Setup Instructions
-bash
-# 1. Clone & Environment
+
+1. Clone & Environment
+
 git clone https://github.com/harsh91460/arvyax-emotion-guide.git
 cd arvyax-emotion-guide
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate   # Windows
 
-# 2. Install
+3. Install
+
 pip install -r requirements.txt
 
-# 3. Add data files
+5. Add data files
+
 data/train.xlsx
+
 data/test.xlsx
 
-# 4. Run
+7. Run
+
 python src/pipeline.py
 
 ## Technical Approach
